@@ -2,11 +2,11 @@ l=str(input("Enter the input str1:"))
 m=str(input("Enter the input str2:"))
 str2_dict={}
 str1_dict={}
-for i in a:
+for i in l:
    r=l.count(i)
     if i not in str1_dict:
         str1_dict[i]=r
-for j in b:
+for j in m:
     s=m.count(j)
     if j not in str2_dict:
         str2_dict[j]=s
